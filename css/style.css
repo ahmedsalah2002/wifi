@@ -1,0 +1,46 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+    direction: rtl;
+  }
+  .container{
+    overflow: hidden;
+  }
+  form {
+    
+    
+  }
+  form label{
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  form input{
+    display: inline-block;
+    padding: 5px 10px;
+    border-color: var(--dark-color);
+    width: 300px;
+    
+  }
+  .button{
+    width: fit-content;
+    padding: 5px 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color:var(--green-color);
+    color: white;
+}
+.All,.person,.today{
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.result,.result-2,.result-3{
+  color: var(--red-color);
+}
